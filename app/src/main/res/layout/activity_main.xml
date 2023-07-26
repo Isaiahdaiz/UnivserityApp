@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/algoma_logo_rgb_colour" />
+
+    <Button
+        android:id="@+id/add_student_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/add_course_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Course"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/enrol_student_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enrol Student"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/enter_grade_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Grade"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/view_grades_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Grades" />
+
+</LinearLayout>

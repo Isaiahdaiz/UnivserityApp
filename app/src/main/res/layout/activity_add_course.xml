@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/course_crn_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course CRN"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/course_crn_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="10" />
+
+    <TextView
+        android:id="@+id/course_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/course_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="200" />
+
+</LinearLayout>
